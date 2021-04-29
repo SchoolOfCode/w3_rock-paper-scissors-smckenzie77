@@ -3,7 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock, Paper, Scissors</title>
+    
   </head>
-  <body></body>
+  <body>
+    <div class="header">
+    <header>
+      <h1 class="game-title">Rock Paper Scissors</h1>
+      <h2 text-align: center;>Choose one to begin!</h2>
+    </header>
+  </div>
+  <section>
+    <style>
+      .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+      .header {
+  background-color: #DBFF76;
+  padding: 20px;
+  text-align: center;
+}
+      </style>
+     
+      <p class="center">
+        <button class="button" id="rock">Rock</button>
+        <button class="button" id="paper">Paper</button>
+        <button class="scissorsButton">Scissors</button>
+      </p>
+        <p class="determineWinner"></p>
+    </div>
+  </section>
+  <script src="main.js"></script>
+  </body>
 </html>
